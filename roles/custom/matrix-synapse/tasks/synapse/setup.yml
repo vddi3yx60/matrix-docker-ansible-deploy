@@ -10,3 +10,5 @@
 
 - ansible.builtin.import_tasks: "{{ role_path }}/tasks/synapse/setup_uninstall.yml"
   when: "not matrix_synapse_enabled | bool"
+
+# Update: 2025-10-12
